@@ -1,20 +1,23 @@
 general_chairs:
-  - firstname: Michele
-    lastname: Polese
-    institution: Northeastern University, Boston, MA, USA
-  - firstname: Florian
-    lastname: Kaltenberger
-    institution: Eurecom, Biot, France
+  - firstname: Nitinder 
+    lastname: Mohan
+    institution: Technical University of Munich, Germany
+  - firstname: Deepak 
+    lastname: Vasisht
+    institution: University of Illinois Urbana-Champaign, USA
+  - firstname: Mohamed 
+    lastname: Kassem
+    institution: University of Surrey, UK
 
-poster_demo_chairs:
-  - firstname: Simone
-    lastname: Ferlin-Reiter
-    institution: RedHat, Sweden
-  - firstname: Claudio
-    lastname: Fiandrino
-    institution: IMDEA Networks, Spain
+# poster_demo_chairs:
+#   - firstname: Simone
+#     lastname: Ferlin-Reiter
+#     institution: RedHat, Sweden
+#   - firstname: Claudio
+#     lastname: Fiandrino
+#     institution: IMDEA Networks, Spain
 
-# web_chairs:
-#   - firstname: Tobias
-#     lastname: Meuser
-#     institution: TU Darmstadt, Germany
+web_chairs:
+  - firstname: Abdullahi Kutiriko
+    lastname: Abubakar
+    institution: University of Surrey, UK
