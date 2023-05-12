@@ -1,0 +1,20 @@
+general_chairs:
+  - firstname: Michele
+    lastname: Polese
+    institution: Northeastern University, Boston, MA, USA
+  - firstname: Florian
+    lastname: Kaltenberger
+    institution: Eurecom, Biot, France
+
+poster_demo_chairs:
+  - firstname: Simone
+    lastname: Ferlin-Reiter
+    institution: RedHat, Sweden
+  - firstname: Claudio
+    lastname: Fiandrino
+    institution: IMDEA Networks, Spain
+
+# web_chairs:
+#   - firstname: Tobias
+#     lastname: Meuser
+#     institution: TU Darmstadt, Germany

@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ACM WiNTECH 2021 | ACM MobiCom 2021</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <!-- navigation bar and header placeholder -->
+    <div id="hdr-placeholder"></div>
+
+    <section id="submission" class="section registration" style="display: block;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">SUBMISSION INFORMATION</h3>
+                </div>
+            </div>
+
+            <p align="justify">Papers should contain original material, namely, material that has not been previously published or currently submitted for consideration elsewhere.
+            Manuscripts must be submitted by using the HotCRP conference <a href="https://wintech21.hotcrp.com/" target="_blank"><b>management system</b></a>.
+            Prospective authors are encouraged to submit a single PDF file with all fonts embedded, using the ACM conference proceedings format.
+            (Use the same PDF <a href="https://www.sigmobile.org/mobicom/2021/cfp.html" target="_blank"><b>formatting guidelines</b></a> as the main conference.)
+            Paper length is limited to eight (8) pages (two-column, 10-point format) including references, figures, etc.
+            Papers must include the author names and affiliations for single-blind peer reviewing by the program committee.
+            Authors of accepted papers are expected to present their papers at the workshop.
+            Accepted papers will be published in the ACM WiNTECH proceedings and will be archived in the ACM Digital Library.
+            All papers will be considered for the <b>Best Paper Award</b>.
+	        </br>
+
+            <br>
+            Visit the <a href="https://wintech21.hotcrp.com/" target="_blank"><b>paper submission site</b></a> to submit your manuscript.
+            </p>
+        </div>
+    </section>
+
+    <!-- import navigation bar and header -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("header.html", function(data){
+        $("#hdr-placeholder").replaceWith(data);
+    });
+    </script>
+
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>
