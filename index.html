@@ -20,20 +20,33 @@
     <section id="about" class="section about" style="display: block;">
         <div class="container">
             <h3 style="text-align:center;" class="section-title">{{ site.data.conference.title }}
-                <br><br>
-                <font size="4">Technically co-sponsored by the <a href="https://advancedwireless.org/" target="_blank">PAWR</a> Project Office and by the <a href="https://slices-sc.eu" target="_blank">SLICES-SC</a> program</font>
-            </h3>
+               
+                  </h3>
 
-            <p align="justify">The increasing complexity of the wireless ecosystem witnessed in recent years has prompted an increasing need of experimental validation of innovative wireless solutions and applications and their coexistence. The WiNTECH workshop has been created to deal with all those methodological, technical and policy issues to be faced when defining, running, controlling and benchmarking experiments on wireless solutions. The workshop, now in its 17th edition, intends to bring together academic researchers and industry players working on different aspects of experimental wireless communications and networking. As such, it serves as a forum for sharing experiences and results with real testbeds, experimental evaluation, prototyping and empirical characterization of wireless technologies.</p>
+            <p align="justify">How do we connect the next billion users to the Internet? How do we capture high-resolution
+pictures of the Earth, or enable massive-scale IoT across industries? How do we enable
+high-capacity Internet in the remotest regions of the globe? Over the past decade, significant
+reductions in satellite production and launch costs have opened up a new `space’ – access to
+Low-Earth Orbits or LEO. Massive constellations from industry consisting of hundreds to tens of
+thousands of low-flying satellites are being rolled out. The wide-scale LEO satellite deployment
+and interest present a unique challenge and opportunity to bring reliable Internet connectivity to
+the remotest regions of the Earth. As such, the research community needs the right tools to
+explore various unforeseen opportunities (like global coverage, low-latency connectivity, and
+high-resolution imagery) and challenges (like extreme mobility, bottlenecked downlinks, and
+sparse ground infrastructure) that come with LEO deployments.</p>
 
-            <p align="justify">The workshop will facilitate discussions on unresolved issues, including new laboratory methodologies, key real-life limitations of wireless technologies that have emerged over the past few years (e.g., mmWave, underwater, 5G, IoT, wearables, and SDN), as well as key challenges facing the wireless networking of the future. As WiNTECH concerns experimental communications and networking, it will feature a relatively large demo session as centerpiece, where real testbeds, deployments and prototypes can be demonstrated and discussed. A demo competition is planned.</p>
-
-            <p align="justify">All the regular papers will be considered for the <b>Best Paper Award</b>.</p>
+            
+            <p align="justify">Overall, LEO-NET aims to open new avenues for networking researchers to explore different
+aspects of LEO constellation operation and performance and shape the state of LEO satellite
+communication. We see multiple strong verticals in LEO – understanding the operation and
+potential bottlenecks in rapidly growing LEO constellation offerings, novel network protocol
+extensions that leverage the highly dynamic LEO links, applications like satellite imagery and
+IoT, LEO compute, and several others. We expect strong submissions along all of these
+verticals addressing many open challenges across the stack.</p>
 
             <p id="listing" align="justify">In addition to the regular papers, the program of {{ site.data.conference.short_title }} {{ site.data.conference.year }} will also include:</p>
-            <li>Keynote speeches from three experts in experimental wireless research</li>
-            <li>Demos and posters</li>
-            <li>A panel session on experimental wireless research</li>
+            <li>Keynote speeches from an expert in LEO Network research</li>
+        
             <br>
 
 						{% if site.data.keynotes.size > 0 %}
@@ -44,9 +57,7 @@
 						{% endif %}
 
             <p><b>IMPORTANT DATES:</b><br/>
-            Paper registration: {{ site.data.dates.registration }}<br/>
             Paper submission: {{ site.data.dates.submission }}<br/>
-            Demos &amp; Posters submission: {{ site.data.dates.poster_demo_submission }}<br/>
             Acceptance notification: {{ site.data.dates.notification }}<br/>
             Camera ready: {{ site.data.dates.camera_ready }}<br/>
             Workshop: {{ site.data.conference.dates }}</p>
