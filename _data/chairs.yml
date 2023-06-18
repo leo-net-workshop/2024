@@ -9,14 +9,6 @@ general_chairs:
     lastname: Kassem
     institution: University of Surrey, UK
 
-# poster_demo_chairs:
-#   - firstname: Simone
-#     lastname: Ferlin-Reiter
-#     institution: RedHat, Sweden
-#   - firstname: Claudio
-#     lastname: Fiandrino
-#     institution: IMDEA Networks, Spain
-
 web_chairs:
   - firstname: Abdullahi Kutiriko
     lastname: Abubakar
