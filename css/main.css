@@ -347,10 +347,11 @@ ulx li {
 }
 .site-branding .logo {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-right: 5px;
   letter-spacing: 3px;
+  font-family: verdana;
   /*text-transform: uppercase;*/
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
