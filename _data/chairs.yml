@@ -8,6 +8,9 @@ general_chairs:
   - firstname: Mohamed 
     lastname: Kassem
     institution: University of Surrey, UK
+  - firstname: Debopam 
+    lastname: Bhattacherjee 
+    institution: Microsoft Research, India
 
 web_chairs:
   - firstname: Abdullahi Kutiriko
