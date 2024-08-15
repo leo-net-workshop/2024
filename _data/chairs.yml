@@ -1,7 +1,7 @@
 general_chairs:
   - firstname: Nitinder 
     lastname: Mohan
-    institution: Technical University of Munich, Germany
+    institution: Delft University of Technology, Netherlands
   - firstname: Deepak 
     lastname: Vasisht
     institution: University of Illinois Urbana-Champaign, USA
@@ -11,8 +11,3 @@ general_chairs:
   - firstname: Debopam 
     lastname: Bhattacherjee 
     institution: Microsoft Research, India
-
-web_chairs:
-  - firstname: Abdullahi Kutiriko
-    lastname: Abubakar
-    institution: University of Surrey, UK
